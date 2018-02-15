@@ -218,6 +218,7 @@ ul {
 .projects-highlight-grid {
     display: grid;
     grid-template-columns: 6% 1fr 1fr 1fr 1fr 1%;
+    grid-template-rows: 1fr;
     grid-column-gap: 20px;
     grid-template-areas:
     ". case1  case2 case3 case4 ."
