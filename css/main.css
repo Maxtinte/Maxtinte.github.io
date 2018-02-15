@@ -227,7 +227,7 @@ ul {
 .imagecase1 {
   width: 250px;
   height: 250px;
-  background-image: url(Images/HP_Alp.jpg);
+  background-image: url(Images/HP-Alp.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -236,7 +236,7 @@ ul {
 .imagecase2 {
   width: 250px;
   height: 250px;
-  background-image: url(Images/HP_IDH.jpg;
+  background-image: url(/Images/HP-Alp.jpg);
   background-size: cover;
   background-position: right;
 }
