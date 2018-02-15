@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/Weather_app_case.css" />
+    <title>Weather app - Maxime</title>
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="mainnav">
+
+
+          <ul class="nav-ul-flex">
+
+                        <li class="second-lihome"> <a href="/index.html" class="second-navlinks">Home</a></li>
+
+                        <li class="second-liprojects"> <a href="overview.html" class="second-navlinks">Projects</a></li>
+
+                        <li class="second-liabout"> <a href="/experience.html" class="second-navlinks">Experience</a> </li>
+
+           </ul>
+
+
+      </nav>
+  </header>
+
+  <section class="main-content">
+  <div class="title-flex">
+    <h3 class="case-title">Weapp - A marine weather forecast app</h3>
+</div>
+
+  <div class="main-content-grid">
+
+    <div class="brief-section">
+      <h4>Background and challenges</h4>
+      <p>A marine weather forecast project undertaken during my UX schooling. For this project I went through the full UX project life-cycle until final screens design to create a ready to build application.
+
+<br>The main challenges were that I had very little knowledge about the industry and about the life and habits of surfers and other water sports aficionados.<br><br>
+
+After a competitive analysis I quickly realised that marine weather applications are very often overloaded with information and their UI is too complex. But instead of jumping into design and hitting the same walls as my competitors, I decided to start my project by talking to people and listening to their stories.<br>I wanted to understand what information are important in marine forecast, how people generally use weather forecast applications and what features do they consider as being important.</p>
+
+      <h4 class="solution-title">Solution</h4>
+      <p class="solution-copy">
+        For this project I decided to constantly bring my prototypes and designs in front of potential users for usability testings. I’ve tested my wireframes and navigation, I've conducted tests with paper prototype, later on with interactive prototype and finally I’ve tested my design.
+        <br>This constant test / iteration loop helped me to get rid of unnecessary features, simplify the UI and move on with confidence throughout the project.
+
+        <br><br>Thanks to this project, I had the opportunity to do everything from the to conception, testings and design. The main take away was the value of talking and listening to users as early and often as possible. The most important iterations happened after the user testings. From early concepts to wireframes and design, it was crucial for that project to collect users' opinion and feedback.
+        <br><br>
+        Below you can find a short video where I go through my prototype.
+
+</p>
+
+
+  </div>
+
+    <div class="responsabilities-section">  <h5>Responsabilities</h5>
+      <ul class="responsabilities-ul">
+        <li>-->UX research</li>
+        <li>-->Information architect</li>
+        <li>-->UI designer</li>
+        <li>-->Prototyper</li>
+      </ul>
+    </div>
+
+    <div class="output-section"><h5>Output</h5>
+      <ul class="output-ul">
+        <li>_Users interviews</li>
+        <li>_User flows and journeys</li>
+        <li>_Personas</li>
+        <li>_Sitemap and navigation</li>
+        <li>_Wireframes</li>
+        <li>_Design and UI elements</li>
+        <li>_Usability testings</li>
+        <li>_Styleguide</li>
+      </ul>
+    </div>
+
+    </div>
+  </section>
+
+  <section class="video">
+
+    <div class="video">  <iframe src="https://player.vimeo.com/video/251983266" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+  </section>
+
+
+<section class="contact">
+  <div class="contact-flex">
+    <p class="contact-text"> I’m always keen and open to new meetings and experiences.</p>
+  </div>
+</section>
+
+<footer>
+
+  <div class="footer-flex">
+
+    <div class="email-child">
+      <p class="email"><a class="contacturl" href="mailto:maxime.sbihibreton@gmail.com?subject=Hey Max, hiya!">👋🙏📧<br>
+  maxime.sbihibreton@gmail.com</a><br><span class="codedesign">Website design: Me / Website coding: Me 🙈</span></p>
+</div>
+
+    <div class="social-contact">
+      <a class="Linkedinlink" href="https://www.linkedin.com/in/maxime-sbihi-1000/" target="_blank"><br>LinkedIn</a>
+  </div>
+
+
+</div>
+</footer>
+
+    </body>
+</html>
