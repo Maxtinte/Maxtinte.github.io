@@ -98,16 +98,10 @@ h5 {
   color: #4F4F4F;
 }
 
-.second-navlinks:visited {
-  border-bottom: 2px solid #FFA1A1;
-}
 
 .second-navlinks:hover {
   color: #FFA1A1;
-  border-bottom: 2px solid #FFA1A1;
 }
-
-
 
 @media (max-width: 500px) {
   .second-liprojects {
