@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/Oasis_case.css" />
+    <title>Overview projects</title>
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="mainnav">
+
+
+          <ul class="nav-ul-flex">
+
+                        <li class="second-lihome"> <a href="/index.html" class="second-navlinks">Home</a></li>
+
+                        <li class="second-liprojects"> <a href="overview.html" class="second-navlinks">Projects</a></li>
+
+                        <li class="second-liabout"> <a href="/experience.html" class="second-navlinks">Experience</a> </li>
+
+           </ul>
+
+
+      </nav>
+  </header>
+
+
+  <section class="main-content">
+  <div class="title-flex">
+    <h3 class="case-title">Homytschku - Sustainable real estate</h3>
+  </div>
+
+  <div class="main-content-grid">
+
+    <div class="brief-section">
+      <h4>Background</h4>
+      <p>While there are plenty of blogs and agencies providing information on real estate investment, often, sustainability criteria in housing are ignored.<br>
+      The purpose of this website is to help investors invest in green buildings that are energy efficient, source sustainable construction material and respect their environment.<br>
+      This is a twist on existing real estate platforms in that the website is designed for those unfamiliar with real estate investment. It allows investors to search through properties of interest and provides them with recommendations based on their investment criteria.
+
+      </p>
+
+      <h4 class="solution-title">Solution</h4>
+      <p class="solution-copy">Content soon to come.
+
+  </p>
+
+
+  </div>
+
+    <div class="responsabilities-section">  <h5>Responsabilities</h5>
+      <ul class="responsabilities-ul">
+        <li>-->UI designer</li>
+        <li>-->Prototyper</li>
+      </ul>
+    </div>
+
+    <div class="output-section"><h5>Output</h5>
+      <ul class="output-ul">
+        <li>_Wireframes</li>
+        <li>_Mockups</li>
+        <li>_UI Interactions</li>
+        <li>_Styleguide</li>
+      </ul>
+    </div>
+
+    </div>
+  </section>
+
+
+
+
+
+<section class="contact">
+  <div class="contact-flex">
+    <p class="contact-text"> I’m always keen and open to new meetings and experiences.</p>
+  </div>
+</section>
+
+<footer>
+
+  <div class="footer-flex">
+
+    <div class="email-child">
+      <p class="email"><a class="contacturl" href="mailto:maxime.sbihibreton@gmail.com?subject=Hey Max, hiya!">👋🙏📧<br>
+  maxime.sbihibreton@gmail.com</a><br>Website design: Me / Website coding: Me 🙈</p>
+</div>
+
+    <div class="social-contact">
+      <a class="Linkedinlink" href="https://www.linkedin.com/in/maxime-sbihi-1000/" target="_blank"><br>LinkedIn</a>
+  </div>
+
+
+<!--
+<div class="code-text"><p class="text-code">Website design: Me / Website coding: Me (🙈)</p></div>
+-->
+
+</div>
+</footer>
+
+    </body>
+</html>
