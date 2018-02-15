@@ -1,0 +1,398 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #F9F6EF;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Avenir', sans-serif;
+  font-size: 18px;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+  color: black;
+  font-weight: bold;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+
+/* NAVIGATION */
+.mainnav {
+  margin-top: 5px;
+}
+
+.nav-ul-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.nav-ul-flex > li {
+  font-size: 20px;
+}
+
+.second-lihome {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.second-liprojects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 180px;
+}
+
+.second-liabout {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+  padding: 20px;
+  width: 180px;
+}
+
+
+.second-navlinks {
+  color: #4F4F4F;
+}
+
+.second-navlinks:visited {
+  border-bottom: 2px solid #FFA1A1;
+}
+
+.second-navlinks:hover {
+  color: #FFA1A1;
+  border-bottom: 2px solid #FFA1A1;
+}
+
+
+
+@media (max-width: 500px) {
+  .second-liprojects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    width: auto;
+    font-size: 20px;
+    border-right: 2px solid #FFA1A1;
+  }
+
+}
+/* END NAV */
+
+
+
+/* INTRO TEXT Mobile first*/
+.intro {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 60px;
+  margin-bottom: 90px;
+  width: 90%;
+}
+
+.intro-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.textintro {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+/* MEDIA QUERIES*/
+
+@media (min-width: 1050px) {
+  .intro-flex {
+    margin-left: 5%;
+    margin-right: 10%;
+    width: auto;
+  }
+
+  .textintro {
+    display: flex;
+    width: auto;
+    padding-right: 30px;
+  }
+
+}
+
+/* END INTRO TEXT  */
+
+.projects-highlight-title {
+  margin: 0 auto;
+  width: auto;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+/* GRID Project highlights */
+/* 1: Name the grid-area */
+
+.case1 {
+  grid-area: case1;
+  width: 250px;
+  height: 400px;
+  border-bottom: 8px solid #FFA1A1;
+}
+
+.case2 {
+  grid-area: case2;
+  width: 250px;
+  height: 400px;
+  border-bottom: 8px solid #FFA1A1;
+}
+
+.case3 {
+  grid-area: case3;
+  width: 250px;
+  height: 400px;
+  border-bottom: 8px solid #FFA1A1;
+}
+
+.case4 {
+  grid-area: case4;
+  width: 250px;
+  height: 400px;
+  border-bottom: 8px solid #FFA1A1;
+}
+
+
+
+/* 2: GRID details */
+.projects-highlight-grid {
+    display: grid;
+    grid-row-gap: 20px;
+    justify-content: center;
+    grid-template-areas:
+    "case1"
+    "case2"
+    "case3"
+    "case4"
+}
+
+
+/* MEDIA QUERIES*/
+/* CHANGE SPACING */
+@media (min-width: 600px) {
+.projects-highlight-grid {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr 0.3fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 100px;
+    grid-column-gap: 80px;
+    justify-content: center;
+    grid-template-areas:
+    ". case1  case2 ."
+    ". case3  case4 ."
+ }
+}
+
+@media (min-width: 1100px) {
+.projects-highlight-grid {
+    display: grid;
+    grid-template-columns: 6% 1fr 1fr 1fr 1fr 1%;
+    grid-column-gap: 20px;
+    grid-template-areas:
+    ". case1  case2 case3 case4 ."
+ }
+}
+
+.imagecase1 {
+  width: 250px;
+  height: 250px;
+  background-image: url(Images/ALP_thumb2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.imagecase2 {
+  width: 250px;
+  height: 250px;
+  background-image: url(Images/IDH_mountain.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+
+
+.imagecase3 {
+  width: 250px;
+  height: 250px;
+  background-image: url(Images/VELA_thumbnail.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+.imagecase4 {
+  width: 250px;
+  height: 250px;
+  background-image: url(Images/Homytschku_thumbnail.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* Hover effects on images */
+@media (min-width: 600px) {
+
+  .imagecase1:hover, .imagecase2:hover, .imagecase3:hover, .imagecase4:hover  {
+    opacity: 0.5;
+  }
+
+  .case1:hover, .case2:hover, .case3:hover, .case4:hover {
+    border-bottom: 8px solid #4F4F4F;
+  }
+
+}
+
+
+/* Yellow contact section */
+.contact-flex {
+  width: 100%;
+  height: 500px;
+  background-color: #F0FF42;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.contact-text {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background-color: inherit;
+}
+
+
+.contact-flex:hover {
+  background-color: #FFA1A1;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .contact-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+}
+/* End Yellow section */
+
+/* Footer - Make it mobile first (include media queries for > screens) */
+footer {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: #333333;
+  position: absolute;
+}
+
+.footer-flex {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background-color: #333333;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.email-child {
+  display: flex;
+  background-color: inherit;
+  width: 80%;
+  height: auto;
+  justify-content: flex-start;
+  margin-left: 5%;
+  align-items: center;
+}
+
+.email {
+  color: #F2F2F2;
+  text-align: left;
+  background-color: inherit;
+  font-size: 14px;
+}
+
+.social-contact {
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  background-color: inherit;
+  font-size: 14px;
+  margin-right: 20px;
+  justify-content: flex-end;
+}
+
+.contacturl  {
+  text-decoration: none;
+  background-color: inherit;
+  color: #F2F2F2;
+}
+
+.Linkedinlink {
+  text-decoration: none;
+  background-color: inherit;
+  color: #F2F2F2;
+}
+
+.code-text {
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid white;
+  background-color: inherit;
+}
+
+.text-code {
+  color: white;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: inherit;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+.Linkedinlink:hover {
+  color: #1485BD;
+}
+}
+
+/* End footer */
