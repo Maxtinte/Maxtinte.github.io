@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/ALP_case.css" />
+    <title>ALP - Maxime</title>
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="mainnav">
+
+
+          <ul class="nav-ul-flex">
+
+                        <li class="second-lihome"> <a href="/index.html" class="second-navlinks">Home</a></li>
+
+                        <li class="second-liprojects"> <a href="overview.html" class="second-navlinks">Projects</a></li>
+
+                        <li class="second-liabout"> <a href="/experience.html" class="second-navlinks">Experience</a> </li>
+
+           </ul>
+
+
+      </nav>
+  </header>
+
+  <section class="main-content">
+
+  <div class="title-flex">
+    <h3 class="case-title">Alphabet - Website relaunch and CMS migration</h3>
+</div>
+
+  <div class="main-content-grid">
+
+    <div class="brief-section">
+      <h4>Background and challenges</h4>
+      <p>In 2017 while I was still working as technical project manager, I had the opportunity to lead and manage the development of the new Alphabet website with countries rollouts, based on a CMS migration system from Drupal 7 to Drupal 8.
+
+<br>Alphabet - BMW group - is the leader of B2B car leasing. Their team includes an international team based in Munich and 15 markets all over the world.
+ Every markets having different needs based on their cultural differences and location, the back-end system needed to allow for high flexibility and customisation, while the front-end would reflect the brand’s guideline and unity.
+  </p>
+
+      <h4 class="solution-title">Solution</h4>
+      <p class="solution-copy">
+        We started the project by doing a thorough audit of the existing Alphabet countries’ websites, in order to analyse what were the needs of the markets based on the components they were using on their websites.
+
+<br>We then organised and lead workshops to gather the requirements for the new platform from 4 pilot markets. At this stage we were also already discussing requirements and scope for the back-end system.
+
+<br>With the requirements and needs defined, we started wireframing, designing and prototyping with weekly check-in calls with the clients.
+The key success factor in the project were the almost daily alignment with the clients in an agile environment.
+
+<br><br>As lead TPM, I was in charge of the overall development of the project. From scoping, project proposal, roadmap, ensuring quality of deliverables, internal and external communication and overall project’s profitability.
+<br>Towards the beginning of the year 2017, upon my request, my time was split 50% as technical PM and 50% as UX designer apprentice. While working as UX designer, I worked on developing wireframes and prototypes, the analysis and recommendations for Drupal 8 modules based on countries specific needs and finally designed small-scale UI component.
+
+<br><br><a class="alphabet-link" href="https://www.alphabet.com/en-gb" target="_blank">Visit</a> the website.
+</p>
+
+
+  </div>
+
+    <div class="responsabilities-section">  <h5>Responsabilities</h5>
+      <ul class="responsabilities-ul">
+        <li>-->Lead technical project manager</li>
+        <li>-->UX trainee</li>
+      </ul>
+    </div>
+
+    <div class="output-section"><h5>Output</h5>
+      <ul class="output-ul">
+        <li>_Project proposal</li>
+        <li>_Countries websites audit</li>
+        <li>_Workshops with stakeholders</li>
+        <li>_Wireframes and design</li>
+        <li>_Interactive prototypes</li>
+        <li>_Small-scale UI component design</li>
+      </ul>
+    </div>
+
+    </div>
+  </section>
+
+
+  <section class="images">
+
+    <div class="image1">allo</div>
+    <div class="image2">alloo</div>
+    <div class="image3">allooooo</div>
+
+  </section>
+
+
+<section class="contact">
+  <div class="contact-flex">
+    <p class="contact-text"> I’m always keen and open to new meetings and experiences.</p>
+  </div>
+</section>
+
+<footer>
+
+  <div class="footer-flex">
+
+    <div class="email-child">
+      <p class="email"><a class="contacturl" href="mailto:maxime.sbihibreton@gmail.com?subject=Hey Max, hiya!">👋🙏📧<br>
+  maxime.sbihibreton@gmail.com</a><br>Website design: Me / Website coding: Me 🙈</p>
+</div>
+
+    <div class="social-contact">
+      <a class="Linkedinlink" href="https://www.linkedin.com/in/maxime-sbihi-1000/" target="_blank"><br>LinkedIn</a>
+  </div>
+
+
+</div>
+</footer>
+
+    </body>
+</html>
