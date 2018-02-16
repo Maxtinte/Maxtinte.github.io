@@ -245,104 +245,122 @@ img {
   }
 
 
-  /* Footer - Make it mobile first (include media queries for > screens) */
-  footer {
-    display: flex;
-    height: 100px;
-    width: 100%;
-    background-color: #333333;
-    position: absolute;
+  
+/* Footer  */
+footer {
+  height: 275px;
+  width: 100%;
+  background-color: #333333;
+  position: absolute;
+}
+
+.footer-flex {
+  height: 275px;
+  width: 100%;
+  background-color: #333333;
+  position: absolute;
+}
+
+.contacts {
+  background-color: #333333;
+}
+
+footer p {
+  color: #F2F2F2;
+  font-size: 14px;
+  background-color: inherit;
+}
+
+.p-title {
+  display: block;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 90px;
+}
+
+.contact-email {
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.contact-linkedin {
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Linkedinlink, .contacturl {
+  text-decoration: none;
+  background-color: inherit;
+  color: #F2F2F2;
+}
+
+
+@media (min-width: 600px) {
+
+
+  footer, .footer-flex {
+    height: 200px;
   }
 
-  .footer-flex {
-    display: flex;
-    height: 60px;
-    width: 100%;
-    background-color: #333333;
-    position: absolute;
-    margin-top: 20px;
-  }
-
-  .email-child {
-    display: flex;
-    background-color: inherit;
-    width: 80%;
-    height: auto;
-    justify-content: flex-start;
-    margin-left: 5%;
-    align-items: center;
-  }
-
-  .email {
-    color: #F2F2F2;
-    text-align: left;
-    background-color: inherit;
-    font-size: 14px;
-  }
-
-  .social-contact {
-    display: flex;
-    width: auto;
-    height: auto;
-    align-items: center;
-    background-color: inherit;
-    font-size: 14px;
-    margin-right: 20px;
-    justify-content: flex-end;
-  }
-
-  .contacturl  {
-    text-decoration: none;
-    background-color: inherit;
-    color: #F2F2F2;
-  }
-
-  .Linkedinlink {
-    text-decoration: none;
-    background-color: inherit;
-    color: #F2F2F2;
-  }
-
-  .code-text {
-    width: 400px;
+  .p-title {
+    display: block;
     justify-content: center;
-    align-items: center;
+    width: auto;
     text-align: center;
-    border: 2px solid white;
-    background-color: inherit;
-  }
-
-  .text-code {
-    color: white;
-    width: 400px;
     margin-left: auto;
     margin-right: auto;
-    background-color: inherit;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-bottom: 50px;
   }
 
-  .codedesign {
-    background-color: inherit;
-    text-decoration: none;
-    font-size: 14px;
-    color: white;
-    padding: 0;
-    margin: 0;
+  .contacts {
+    display: flex;
   }
 
-  @media (max-width: 500px) {
-  .social-contact {
-    display: none;
-  }
+  .contact-email {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: auto;
   }
 
 
-  @media (min-width: 600px) {
-  .Linkedinlink:hover {
-    color: #1485BD;
-  }
+  .contact-linkedin {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    text-align: left;
+    margin-right: 5%;
+    margin-bottom: 0px;
   }
 
-  /* End footer */
+.Linkedinlink:hover {
+  color: #1485BD;
+}
+}
+
+
+@media (min-width: 900px) {
+
+  .contact-email {
+    margin-left: 10%;
+  }
+
+  .contact-linkedin {
+    margin-right: 10%;
+}
+
+}
