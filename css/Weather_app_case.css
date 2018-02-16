@@ -236,7 +236,9 @@ h5 {
 
 }
 /* END MEDIA QUERIES */
-
+.brief-section p {
+  margin-bottom: 20px;
+}
 
 .solution-title {
   margin-top: 40px;
