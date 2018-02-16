@@ -112,12 +112,24 @@ ul {
 }
 
 .textintro {
-  display: flex;
+  display: block;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 5px;
+}
+
+.textintro p {
+  margin-bottom: 20px;
 }
 
 
+h4 {
+  margin-bottom: 30px;
+}
+
+.p-case3 {
+  position: relative;
+  top: 25px;
+}
 
 /* MEDIA QUERIES*/
 
@@ -129,12 +141,14 @@ ul {
   }
 
   .textintro {
-    display: flex;
+    display: block;
     width: auto;
     padding-right: 30px;
   }
 
 }
+
+
 
 /* END INTRO TEXT  */
 
