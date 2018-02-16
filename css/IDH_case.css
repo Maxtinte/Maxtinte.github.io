@@ -232,8 +232,8 @@ h5 {
 /* END MEDIA QUERIES */
 
 
-.currently {
-  color: #FFA1A1;
+.brief-section p {
+  margin-bottom: 20px;
 }
 
 .idhlink {
