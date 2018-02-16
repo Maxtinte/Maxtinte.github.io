@@ -242,6 +242,15 @@ h5 {
 
 
 /* SYTLING CASE */
+
+.brief-section p {
+  margin-bottom: 20px;
+}
+
+.solution-copy p {
+  margin-bottom: 20px;
+}
+
 .solution-title {
   margin-top: 40px;
 }
