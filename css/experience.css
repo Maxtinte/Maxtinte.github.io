@@ -201,13 +201,17 @@ img {
     ". content interests ."
 
 }
-
 }
 
 
+/* intro text style */
+ p {
+  margin-bottom: 20px;
+}
 
-
-
+.p1 {
+ margin-bottom: -5px;
+}
 
 
 
