@@ -428,51 +428,44 @@ footer p {
   .contact-linkedin {
     margin-right: 10%;
 }
-
+  
 }
 
 
 
 /* Content */
-.overview1 {
-  width: 90%;
-  height: 90%;
+.overview {
+  max-width: 90%;
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
   margin-left: 5%;
   margin-right: 5%;
 }
 
-.imgoverview1 {
-  background-image: url(/Images/HomytshkuCase/Homytschku_first_overview_reduced.jpg);
-  background-size: cover;
-  max-width: 800px;
-  height: 800px;
-  margin: 20px auto;
+.wires {
+  max-width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 
-.imgwires {
-  background-image: url(/Images/HomytshkuCase/Homytshku_Wireframes.jpg);
-  background-size: cover;
-  max-width: 1024px;
-  height: 1330px;
-  margin: 30px auto;
+.Mobilescreens {
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 
-.imgmobilescreens {
-  background-image: url(/Images/HomytshkuCase/Homytshku_Mobile.jpg);
-  background-size: cover;
-  max-width: 1024px;
-  height: 660px;
-  margin: 30px auto;
-  margin-bottom: 80px;
-}
-
-.imgstyleguide {
-  background-image: url(/Images/HomytshkuCase/Homytshku_MobileStyle_Guide.jpg);
-  background-size: cover;
-  max-width: 1008px;
-  height: 700px;
-  margin: 30px auto;
-  margin-bottom: 80px;
+.Styleguideimg {
+  max-width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 
 .gifanim {
@@ -492,3 +485,28 @@ footer p {
   margin-right: 20%;
 }
 
+
+@media (max-width: 600px) {
+
+.overview {
+  max-width: 100%;
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.wires {
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.Styleguideimg {
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+  
+}
