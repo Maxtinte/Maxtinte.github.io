@@ -159,8 +159,8 @@ ul {
     grid-template-rows: auto;
     grid-template-areas:
     "image-section-gridarea"
-    "responsabilities-section"
     "content-section"
+    "responsabilities-section"
 }
 
 .image-section {
