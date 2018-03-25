@@ -95,29 +95,6 @@ ul {
 /* END NAV */
 
 
-/* Intro
-.intro {
-  border-bottom: 4px solid #4F4F4F;
-}
-
-.intro-copy {
-  margin-left: 20px;
-  margin-right: 20px;
-  width: 90%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-@media (min-width: 500px) {
-  .intro-text {
-    margin: 50px 10% 50px 10%;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-  }
-}
-*/
-/* end Intro */
 
 
 
@@ -170,7 +147,7 @@ ul {
     margin-bottom: 10px;
 }
 
-@media (min-width: 575px) {
+@media (min-width: 650px) {
     .project-grid {
       display: grid;
       grid-column-gap: 3px;
@@ -205,7 +182,6 @@ ul {
 }
   
 .responsabilities-section {
-  grid-area: responsabilities-section;
   border: 0px solid #4F4F4F;
 }
 
@@ -234,7 +210,7 @@ ul {
     }
 
     .responsabilities-section {
-  border: 2px solid #4F4F4F;
+      border: 2px solid #4F4F4F;
 }
 
     .CTA-readmore {
@@ -364,7 +340,7 @@ ul {
   background-repeat: no-repeat;
 }
 
-/* Case study 5 */
+/* Case study 5 
 .image-case5 {
   width: 100%;
   height: 100%;
@@ -375,7 +351,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+*/
 
 /* Hover effects on images */
 @media (min-width: 600px) {
@@ -501,7 +477,7 @@ footer p {
 
 
   footer, .footer-flex {
-    height: 200px;
+    height: 150px;
   }
 
   .p-title {
