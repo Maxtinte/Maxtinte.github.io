@@ -156,6 +156,7 @@ img {
 
 .currentlylearninggroup {
   padding-left: 10px;
+  padding-bottom: 5px;
 }
 
 .experience {
@@ -166,6 +167,7 @@ img {
 
 .studies {
   padding-left: 10px;
+  padding-bottom: 5px;
 }
 
 /* GRID */
