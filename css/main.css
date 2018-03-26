@@ -195,10 +195,10 @@ h4 {
     grid-row-gap: 20px;
     justify-content: center;
     grid-template-areas:
+    "case4"
+    "case3"
     "case1"
     "case2"
-    "case3"
-    "case4"
 }
 
 
@@ -213,8 +213,8 @@ h4 {
     grid-column-gap: 80px;
     justify-content: center;
     grid-template-areas:
+    ". case4  case3 ."
     ". case1  case2 ."
-    ". case3  case4 ."
  }
 }
 
@@ -225,7 +225,7 @@ h4 {
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
     grid-template-areas:
-    ". case1  case2 case3 case4 ."
+    ". case4  case3 case1 case2 ."
  }
 }
 
