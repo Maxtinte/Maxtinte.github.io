@@ -271,6 +271,25 @@ h5 {
 
 /* IMAGES Cases */
 
+.imgoverview {
+  max-width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 700px) {
+  .imgoverview {
+    max-width: 96%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
 
 
 /* Yellow contact section */
