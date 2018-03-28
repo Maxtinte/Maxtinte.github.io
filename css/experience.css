@@ -209,10 +209,13 @@ img {
 /* intro text style */
  p {
   margin-bottom: 20px;
+  line-height: 1.4;
+
 }
 
 .p1 {
  margin-bottom: 20px;
+ line-height: 1.4;
 }
 
 
