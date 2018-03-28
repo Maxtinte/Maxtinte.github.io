@@ -284,6 +284,7 @@ footer {
   width: 100%;
   background-color: #333333;
   position: absolute;
+  margin-top: 150px;  
 }
 
 .footer-flex {
