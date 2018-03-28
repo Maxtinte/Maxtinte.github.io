@@ -374,6 +374,7 @@ ul {
 
 .closing-copy {
   display: flex;
+  text-align: center;
   width: 65%;
   margin-left: auto;
   margin-right: auto;
