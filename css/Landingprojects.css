@@ -340,18 +340,18 @@ ul {
   background-repeat: no-repeat;
 }
 
-/* Case study 5 
+
 .image-case5 {
   width: 100%;
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(/Images/Overview_ALP_e-commerce.jpg);
+  background-image: url(/Images/josef_Albers_Homagetothesquare2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-*/
+
 
 /* Hover effects on images */
 @media (min-width: 600px) {
