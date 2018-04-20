@@ -194,12 +194,6 @@ h5 {
     ". briefcopy . ."
   }
 
-/* END GRID could use that property to put this section up
-.output-section {
-  position: relative;
-  bottom: 200px;
-} */
-
 }
 
 /* END GRID */
@@ -256,105 +250,219 @@ h5 {
 }
 /* END MEDIA QUERIES */
 
-
-/* Footer - Make it mobile first (include media queries for > screens) */
+/* Footer  */
 footer {
-  display: flex;
-  height: 100px;
+  height: 275px;
   width: 100%;
   background-color: #333333;
   position: absolute;
+  margin-top: 150px;
 }
 
 .footer-flex {
-  display: flex;
-  height: 60px;
+  height: 275px;
   width: 100%;
   background-color: #333333;
   position: absolute;
-  margin-top: 20px;
 }
 
-.email-child {
-  display: flex;
+.contacts {
+  background-color: #333333;
+}
+
+footer p {
+  color: #F2F2F2;
+  font-size: 14px;
   background-color: inherit;
+}
+
+.p-title {
+  display: block;
   width: 80%;
   height: auto;
-  justify-content: flex-start;
-  margin-left: 5%;
-  align-items: center;
-}
-
-.email {
-  color: #F2F2F2;
-  text-align: left;
-  background-color: inherit;
-  font-size: 14px;
-}
-
-.social-contact {
-  display: flex;
-  width: auto;
-  height: auto;
-  align-items: center;
-  background-color: inherit;
-  font-size: 14px;
-  margin-right: 20px;
-  justify-content: flex-end;
-}
-
-.contacturl  {
-  text-decoration: none;
-  background-color: inherit;
-  color: #F2F2F2;
-}
-
-.Linkedinlink {
-  text-decoration: none;
-  background-color: inherit;
-  color: #F2F2F2;
-}
-
-.code-text {
-  width: 400px;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  border: 2px solid white;
-  background-color: inherit;
-}
-
-.text-code {
-  color: white;
-  width: 400px;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: inherit;
-  justify-content: center;
-  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 90px;
+}
+
+.contact-email {
+  width: auto;
   text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 }
 
-.codedesign {
-  background-color: inherit;
+.contact-linkedin {
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Linkedinlink, .contacturl {
   text-decoration: none;
-  font-size: 14px;
-  color: white;
-  padding: 0;
-  margin: 0;
-}
-
-@media (max-width: 500px) {
-.social-contact {
-  display: none;
-}
+  background-color: inherit;
+  color: #F2F2F2;
 }
 
 
 @media (min-width: 600px) {
+
+
+  footer, .footer-flex {
+    height: 200px;
+  }
+
+  .p-title {
+    display: block;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+
+  .contacts {
+    display: flex;
+  }
+
+  .contact-email {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: auto;
+  }
+
+
+  .contact-linkedin {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    text-align: left;
+    margin-right: 5%;
+    margin-bottom: 0px;
+  }
+
 .Linkedinlink:hover {
   color: #1485BD;
 }
 }
 
-/* End footer */
+
+@media (min-width: 900px) {
+
+  .contact-email {
+    margin-left: 10%;
+  }
+
+  .contact-linkedin {
+    margin-right: 10%;
+}
+  
+}
+
+
+
+/* Content */
+.overview {
+  max-width: 90%;
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.wires {
+  max-width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.Mobilescreens {
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.Styleguideimg {
+  max-width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.gifanim {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+
+.contentcase > p {
+  text-align: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media (min-width: 600px) {
+.contentcase > p {
+  text-align: center;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+}
+
+@media (min-width: 800px) {
+.contentcase > p {
+  text-align: center;
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+}
+
+@media (max-width: 600px) {
+
+.overview {
+  max-width: 100%;
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.wires {
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.Styleguideimg {
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+  
+}
