@@ -235,6 +235,7 @@ h4 {
   background-image: url(/Images/HP_Alp.jpg);
   background-size: cover;
   background-position: center;
+  transition: opacity 0.6s;
 }
 
 
@@ -244,6 +245,7 @@ h4 {
   background-image: url(/Images/HP_IDH.jpg);
   background-size: cover;
   background-position: right;
+  transition: opacity 0.6s; 
 }
 
 
@@ -254,6 +256,7 @@ h4 {
   background-image: url(/Images/HP_VELA.jpg);
   background-size: cover;
   background-position: center;
+  transition: opacity 0.6s;
 }
 
 
@@ -265,6 +268,7 @@ h4 {
   background-image: url(/Images/Homytshku_case_thumbnail.jpg);
   background-size: cover;
   background-position: center;
+  transition: opacity 0.6s;
 }
 
 
