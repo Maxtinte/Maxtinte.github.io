@@ -467,10 +467,10 @@ footer p {
 
 
 .imgALP {
-  max-width: 70%;
+  max-width: 90%;
   height: auto;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 40px;
   margin-bottom: 100px;
 }
