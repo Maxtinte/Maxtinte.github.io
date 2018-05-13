@@ -472,7 +472,6 @@ footer p {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  margin-bottom: 100px;
 }
 
 @media (max-width: 600px) {
@@ -481,7 +480,6 @@ footer p {
   max-width: 100%;
   height: auto;
   margin-top: 40px;
-  margin-bottom: 100px;
 }
 
 }
