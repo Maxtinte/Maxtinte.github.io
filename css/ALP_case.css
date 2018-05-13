@@ -483,3 +483,13 @@ footer p {
 }
 
 }
+
+
+
+figure {
+  display: table;
+}
+figcaption {
+  display: table-caption;
+  caption-side: top;
+}
