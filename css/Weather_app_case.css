@@ -474,10 +474,32 @@ footer p {
   .contact-email {
     margin-left: 10%;
   }
-
   .contact-linkedin {
     margin-right: 10%;
 }
 
 }
 
+.finalcopy {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 30%;
+}
+@media (max-width: 700px) {
+  .finalcopy {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .finalcopy {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+}
